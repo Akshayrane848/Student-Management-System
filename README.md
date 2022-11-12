@@ -18,47 +18,23 @@ Student management system is an environment where all the process of the student
 Write a program to build a simple Software for Student Information Management System which can perform the following operations: Store the name of the student. Store the  name of the admin. Store the unique Roll number for every student. so on....
 
 
-## Screen Shot 
+## SCREENSHORT 
 
-![screenshot](https://user-images.githubusercontent.com/105929244/201479682-827d9779-adc2-4585-9182-225cf819b18e.JPG) Welcome page | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/dashboard.PNG) Dashboard |
+![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/new%20welcone%20page.JPG) WELCOME PAGE | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20section.JPG) ADMIN SECTION |
 |-|-|
-.
 
-![welcome page](https://user-images.githubusercontent.com/105929244/201479682-827d9779-adc2-4585-9182-225cf819b18e.JPG)
+![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20task.JPG) ADMIN TASK | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Student%20section.JPG) STUDENT SECTION |
+|-|-|
 
-Welcome page user can select any number.
-
-
-.
+![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Student%20task.JPG) STUDENT TASK | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/exit.JPG) EXIT |
+|-|-|
 
 
-![Admin section](https://user-images.githubusercontent.com/105929244/201479947-4690ad3b-8f1e-44d4-8528-88531ee55765.JPG)
 
-### Admin section user can select any number.
+## FEATURES
 
-
-.
-
-
-![Admin task](https://user-images.githubusercontent.com/105929244/201480012-8da67aba-8875-47e5-b0f4-9d5b789e5de2.JPG)
-
-### Admin task user can select any number.
-
-
-.
-
-
-![Student section](https://user-images.githubusercontent.com/105929244/201480062-20c770c0-1b5e-431f-b58a-5ea118a7a53c.JPG)
-
-### Student section user can select any number
-
-
-.
-
-
-![Student task](https://user-images.githubusercontent.com/105929244/201480162-5f8c7fe2-815d-40b5-b4ef-5912d368d107.JPG)
-
-### student task user can select any number.
-
-
+- Student record maintenance - reports, dashboards, and analytics. ...
+- Comprehensive student details in a single view. ...
+- End-to-end admissions management. ...
+- Track and manage record. ...
 
