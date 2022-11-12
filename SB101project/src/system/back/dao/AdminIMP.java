@@ -19,11 +19,11 @@ import system.back.model.StudentDTO;
 import system.back.utility.DBUtil;
 
 public class AdminIMP implements Admin1 {
-
+	
 	@Override
 	public String adminRegistration(Admin admin) throws AdminException {
 		
-		String massege = "Not Register";
+		String massege = "PLEASE TRY AGAIN";
 		
 		try (Connection conn= DBUtil.provideConnection()){
 			
@@ -39,7 +39,7 @@ public class AdminIMP implements Admin1 {
 				
 				massege = "Register successfully";
 			}else
-				throw new AdminException("invalid details");
+				throw new AdminException("Invalid details");
 				
 			
 		} catch (SQLException e) {
@@ -109,7 +109,7 @@ public class AdminIMP implements Admin1 {
 				
 				massege = "Added successfully";
 			}else
-				throw new CourseException("Nnt valid course detail");
+				throw new CourseException("NOt valid course detail");
 				
 			
 		} catch (SQLException e) {
@@ -327,7 +327,7 @@ public class AdminIMP implements Admin1 {
 							int a= ps4.executeUpdate();
 							
 							if(a > 0) {
-								massege = "Student "+ sname + "Roll No "+sb.getRoll()+"Successfully added to Batch "+ bname+ "of Course "+ cname ;
+								massege = "Student "+ sname + " Roll No "+sb.getRoll()+" Successfully added to Batch "+ bname+ " of Course "+ cname ;
 							}
 						}else
 							massege = "Seats are full for this batch";
@@ -408,8 +408,8 @@ public class AdminIMP implements Admin1 {
 			while(rs.next()) {
 				flag = false;
 				
-				StudentDTO student = new StudentDTO(rs.getInt("roll"),rs.getString("sname"),rs.getString("semail"),rs.getInt("cid"),rs.getString("cname"),rs.getInt("fee"),rs.getInt("bid"),rs.getString("bname"));
-				students.add(student);
+				StudentDTO st = new StudentDTO(rs.getInt("roll"),rs.getString("sname"),rs.getString("semail"),rs.getInt("cid"),rs.getString("cname"),rs.getInt("fee"),rs.getInt("bid"),rs.getString("bname"));
+				students.add(st);
 				
 			}
 			

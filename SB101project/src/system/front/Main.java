@@ -11,6 +11,7 @@ public class Main {
 		public static final String ANSI_RED = "\u001B[31m";
 		public static final String ANSI_GREEN = "\u001B[32m"; 
 		public static final String ANSI_YELLOW = "\u001B[33m";
+		public static final String ANSI_BLUE = "\u001B[34m";
 	
 	static Scanner sc= new Scanner(System.in);
 	
@@ -36,6 +37,14 @@ public class Main {
 	 }
 	 
 	 
+	 
+	 public static void main(String[] args) {
+			
+			
+			mainMenu();
+		}
+	 
+	 
 	 public static void mainMenu() {            
 			
 			System.out.println(ANSI_RED +"PLEASE SELECT ONE OPTION" + ANSI_RESET);
@@ -44,17 +53,20 @@ public class Main {
 			System.out.println("1. ADMIN");
 			System.out.println("2. STUDENT");
 			System.out.println("9. EXIT");
+			System.out.println(ANSI_BLUE+"ENTER YOUR OPTION ON NEXT LINE"+ANSI_RESET);
 			
 			int rest = sc.nextInt();
 			
 			switch (rest) {
 			  case 1:
-			    System.out.println(ANSI_GREEN+"======ADMIN======"+ ANSI_RESET);
+			    System.out.println(ANSI_GREEN+"======WECOME TO ADMIN SECTION======"+ ANSI_RESET);
+			    System.out.println();
 			    adminAuthorizetion();
 			    break;
 			  case 2:
-			    System.out.println(ANSI_GREEN+"======STUDENT======"+ ANSI_RESET);
-			    //();
+			    System.out.println(ANSI_GREEN+"======WELCOME TO STUDENT SECTION======"+ ANSI_RESET);
+			    System.out.println();
+			    studentAuthorizetion();
 			    break;
 			  case 9:
 			    System.out.println(ANSI_GREEN+"======THANK YOU======"+ ANSI_RESET);
@@ -74,9 +86,10 @@ public class Main {
 			System.out.println();
 			
 			System.out.println("1. NEW ADMIN REGISTRATION");
-			System.out.println("2. Admin Login");
+			System.out.println("2. ADMIN LOGIN");
 			System.out.println("0. MAIN MENU");
 			System.out.println("9. EXIT");
+			System.out.println(ANSI_BLUE+"ENTER YOUR OPTION ON NEXT LINE"+ANSI_RESET);
 			
 			AdminUsecase ad= new AdminUsecase();
 			
@@ -119,7 +132,9 @@ public class Main {
 			System.out.println("7. Update Seats in Batch");
 			System.out.println("8. View Student in Batch");
 			System.out.println("0. GO BACK");
+			System.out.println("10. MAINMENU");
 			System.out.println("9. EXIT");
+			System.out.println(ANSI_BLUE+"ENTER YOUR OPTION ON NEXT LINE"+ANSI_RESET);
 			
 			AdminUsecase ad= new AdminUsecase();
 			
@@ -155,12 +170,15 @@ public class Main {
 				adminTask();
 				break;
 			  case 8:
-				ad.viewStudentOfBatch();;
+				ad.viewStudentOfBatch();
 				adminTask();
 				break;
 			  case 0:
 				adminAuthorizetion();
-				    break;
+				break;
+			  case 10:
+				mainMenu();
+				break;
 			  case 9:
 			    System.out.println(ANSI_GREEN+"======THANK YOU======"+ ANSI_RESET);
 			    System.out.println(ANSI_GREEN+"======WELCOME======"+ ANSI_RESET);
@@ -182,7 +200,9 @@ public class Main {
 			System.out.println("2. Student Login");
 			System.out.println("3. Show All Courses and Seats Available");
 			System.out.println("0. GO BACK");
+			System.out.println("10. MAINMENU");
 			System.out.println("9. EXIT");
+			System.out.println(ANSI_BLUE+"ENTER YOUR OPTION ON NEXT LINE"+ANSI_RESET);
 			
 			StudentUsecase st = new StudentUsecase();
 			
@@ -204,6 +224,9 @@ public class Main {
 			  case 0:
 			    mainMenu();
 			    break;
+			  case 10:
+				mainMenu();
+				break;
 			  case 9:
 				System.out.println(ANSI_GREEN+"======THANK YOU======"+ ANSI_RESET);
 				System.out.println(ANSI_GREEN+"======WELCOME======"+ ANSI_RESET);
@@ -223,7 +246,9 @@ public class Main {
 		 
 		 System.out.println("1. Update Details ");
 		 System.out.println("0. GO BACK");
+		 System.out.println("10. MAINMENU");
 		 System.out.println("9. EXIT");
+		 System.out.println(ANSI_BLUE+"ENTER YOUR OPTION ON NEXT LINE"+ANSI_RESET);
 		 
 		 StudentUsecase st = new StudentUsecase();
 		 
@@ -236,6 +261,9 @@ public class Main {
 			  case 0:
 			    mainMenu();
 			    break;
+			  case 10:
+				mainMenu();
+				break;
 			  case 9:
 				System.out.println(ANSI_GREEN+"======THANK YOU======"+ ANSI_RESET);
 				System.out.println(ANSI_GREEN+"======WELCOME======"+ ANSI_RESET);
@@ -250,10 +278,6 @@ public class Main {
 	 
 	 
 
-	public static void main(String[] args) {
-		
-		
-		mainMenu();
-	}
+	
 
 }

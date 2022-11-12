@@ -14,6 +14,7 @@ import system.back.model.Admin;
 import system.back.model.Batch;
 import system.back.model.Course;
 import system.back.model.CourseDTO;
+import system.back.model.Student;
 import system.back.model.StudentBatch;
 import system.back.model.StudentDTO;
 
@@ -315,6 +316,7 @@ public class AdminUsecase {
 				System.out.println("No data found");
 			}else
 				student.forEach(s -> System.out.println(s));
+				
 		} catch (StudentException e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
