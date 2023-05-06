@@ -1,13 +1,13 @@
 
 # Automated Student's Courses Registration  using JAVA , STS , JDBC , MYSQL.(console base project)
 
-![TABLES](https://user-images.githubusercontent.com/105929244/201478384-3134e0e0-1b7b-4603-a56d-bd122f52ce38.JPG)
+![TABLES](![chema](https://user-images.githubusercontent.com/105929244/236624379-a7c97615-86dc-44e6-b97b-bbb99972daf0.PNG))
 This is table relationship use in project. 
 
 .
 
 
-![FLOW](https://user-images.githubusercontent.com/105929244/201478446-1b552a5a-cf51-42c1-b7cf-57c7e0d1dd48.JPG)
+![FLOW](![flow chat](https://user-images.githubusercontent.com/105929244/236624413-2041b031-0aee-442e-8368-6c1de88f6d8c.PNG))
 ### this is schema chat use in project.
 
 .
