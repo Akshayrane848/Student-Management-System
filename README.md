@@ -22,7 +22,7 @@ Write a program to build a simple Software for Student Information Management Sy
 
 ## SCREENSHORT 
 
-![new welcone page](https://github.com/Akshayrane848/Student-Management-System/assets/105929244/463203de-aa90-4145-a7e0-9899cd90ec45)
+![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20section.JPG) 
  WELCOME PAGE | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20section.JPG) ADMIN SECTION |
 |-|-|
 
