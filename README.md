@@ -22,7 +22,8 @@ Write a program to build a simple Software for Student Information Management Sy
 
 ## SCREENSHORT 
 
-![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/new%20welcone%20page.JPG) WELCOME PAGE | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20section.JPG) ADMIN SECTION |
+![new welcone page](https://github.com/Akshayrane848/Student-Management-System/assets/105929244/463203de-aa90-4145-a7e0-9899cd90ec45)
+ WELCOME PAGE | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20section.JPG) ADMIN SECTION |
 |-|-|
 
 ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Admin%20task.JPG) ADMIN TASK | ![screenshot](https://github.com/Akshayrane848/Student-Management-System/blob/main/IMAGE/Student%20section.JPG) STUDENT SECTION |
